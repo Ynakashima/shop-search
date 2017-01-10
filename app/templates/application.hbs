@@ -1,0 +1,14 @@
+<h1>Hello World</h1>
+<h2>This is Yuri's capstone.</h2>
+<h2>Fukc.</h2>
+
+{{#each model as |product|}}
+  <div class="product {{if product.hidden 'hide'}}">
+    <h3>{{product.name}}</h3>
+    <p>Buy it from: {{product.retailer}}</p>
+    <p>{{product.price}}</p>
+    <br>
+    <button{{action 'toggleHidden'}}>Toggle Hidden</button>
+  </div>
+{{/each}}
+{{outlet}}
