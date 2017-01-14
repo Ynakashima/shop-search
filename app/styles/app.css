@@ -1,4 +1,13 @@
+.search-box {
+  display: inline-block;
+}
+
 .product {
+  display: inline-block;
   border: 1px solid;
   padding-left: 1vw;
+}
+
+.hide {
+  display: none;
 }

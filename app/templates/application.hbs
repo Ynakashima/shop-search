@@ -2,13 +2,20 @@
 <h2>This is Yuri's capstone.</h2>
 <h2>Fukc.</h2>
 
+<div class="search-box">
+  <h4> I want....</h4>{{input type="text" value=search placeholder="search" class="search"}}
+</div>
+
+
 {{#each model as |product|}}
   <div class="product {{if product.hidden 'hide'}}">
+    <p>{{product.image}}</p>
     <h3>{{product.name}}</h3>
     <p>Buy it from: {{product.retailer}}</p>
-    <p>{{product.price}}</p>
+    <p>Price: {{product.priceLabel}}</p>
+    <p>Link to buy: {{product.url}}</p>
     <br>
-    <button{{action 'toggleHidden'}}>Toggle Hidden</button>
+    <button{{action 'toggleHidden' product}}>Hide Product</button>
   </div>
 {{/each}}
 {{outlet}}
