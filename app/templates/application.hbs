@@ -9,7 +9,7 @@
 
 {{#each model as |product|}}
   <div class="product {{if product.hidden 'hide'}}">
-    <p>{{product.image}}</p>
+    <img src={{product.image}} alt="product-image">
     <h3>{{product.name}}</h3>
     <p>Buy it from: {{product.retailer}}</p>
     <p>Price: {{product.priceLabel}}</p>
