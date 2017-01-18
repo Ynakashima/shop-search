@@ -1,11 +1,3 @@
-{{#each model as |product|}}
-  <div class="product {{if product.hidden 'hide'}}">
-    <img src={{product.image}} alt="product-image">
-    <h3>{{product.name}}</h3>
-    <p>Buy it from: {{product.retailer}}</p>
-    <p>Price: {{product.price}}</p>
-    <a href="{{product.url}}">Buy it</a>
-    <br>
-    <button{{action 'toggleHidden' product}}>Hide Product</button>
-  </div>
+{{#each model as |productListing|}}
+  {{product-listing product=productListing}}
 {{/each}}

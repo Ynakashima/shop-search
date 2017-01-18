@@ -11,3 +11,39 @@
 .hide {
   display: none;
 }
+
+.product img {
+    height: 100px;
+    float: left;
+    margin-right: 45px;
+    border-radius: 5px;
+}
+
+.product a.image.wide {
+    max-width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.product .wide img {
+    height: initial;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product .wide small {
+    display: none;
+}
+
+.product a.image {
+    max-width: 150px;
+    display: block;
+    cursor: pointer;
+}
+
+.product small {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 136px;
+}

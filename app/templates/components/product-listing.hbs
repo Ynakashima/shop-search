@@ -1,0 +1,13 @@
+
+<div class="product {{if product.hidden 'hide'}}">
+  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+    <img src="{{product.image}}" alt="product-image">
+    <small>View Larger</small>
+  </a>
+  <h3>{{product.name}}</h3>
+  <p>Buy it from: {{product.retailer}}</p>
+  <p>Price: {{product.price}}</p>
+  <a href="{{product.url}}">Buy it</a>
+  <br>
+  <button{{action 'toggleHidden' product}}>Hide Product</button>
+</div>
