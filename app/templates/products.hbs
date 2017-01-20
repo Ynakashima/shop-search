@@ -1,9 +1,9 @@
 {{#product-filter
   filter=(action 'filterBySearch')
   as |products|}}
-  <ul class="results">
+  <div class="col-md-6 results">
     {{#each model as |productListing|}}
-      <li>{{product-listing product=productListing}}</li>
+      {{product-listing product=productListing}}
     {{/each}}
-  </ul>
+  </div>
 {{/product-filter}}
