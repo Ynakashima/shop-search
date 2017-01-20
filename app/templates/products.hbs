@@ -1,3 +1,9 @@
-{{#each model as |productListing|}}
-  {{product-listing product=productListing}}
-{{/each}}
+{{#product-filter
+  filter=(action 'filterBySearch')
+  as |products|}}
+  <ul class="results">
+    {{#each model as |productListing|}}
+      <li>{{product-listing product=productListing}}</li>
+    {{/each}}
+  </ul>
+{{/product-filter}}
