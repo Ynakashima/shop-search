@@ -4,13 +4,13 @@ export default Ember.Controller.extend({
   queryParams: ['name'],
   name: null,
   actions: {
-    filterBySearch(param) {
-      console.log("in Controller:", param);
-      if (param !== '') {
+    filterBySearch(params) {
+      console.log("in Controller:", params);
+      if (params !== '') {
         // return
         // var self = this;
-        return this.get('store').query('product', { name: param}).then(function(results){
-          console.log(results);
+        return this.get('store').query('product', { name: params}).then(function(params){
+          console.log(params);
           // self.get('store').push(results);
         });
         // this.set('product', productsReturned);
@@ -18,7 +18,11 @@ export default Ember.Controller.extend({
         return this.get('store').findAll('product');
       }
     }
-  }
+  },
+
+  // filterResults: function() {
+  //   return this.get('products').filterBy('name', true);
+  // }.property('@products.@each.name')
 
   // queryParams: ['name'],
   // name: null,
