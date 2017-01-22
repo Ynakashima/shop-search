@@ -1,9 +1,10 @@
 .search-box {
-  display: inline-block;
+  display: block;
 }
 
 .product {
-  display: inline-block;
+  /*display: inline-block;*/
+  width: 50vw;
   border: 1px solid;
   padding-left: 1vw;
 }
@@ -15,6 +16,7 @@
 .product img {
     height: 100px;
     float: left;
+    padding-top: 1vh;
     margin-right: 45px;
     border-radius: 5px;
 }
@@ -45,5 +47,15 @@
     float: left;
     display: block;
     text-align: center;
-    width: 136px;
+    width: 120px;
+}
+
+footer {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: left;
 }
