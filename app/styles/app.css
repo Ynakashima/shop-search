@@ -5,7 +5,7 @@
 .main-products {
   /*background-color: black;*/
   border-radius: 5px;
-  margin-right: 50vw;
+  margin-right: 35vw;
 }
 
 .search-box h4 {
@@ -15,8 +15,8 @@
 
 .product {
   /*padding: 5px;*/
-  height: 50vh;
-  width: 50vw;
+  height: 45vh;
+  width: 35vw
   border: 1px solid;
   padding-left: 1vw;
   padding-top: 8vh;
@@ -64,6 +64,30 @@
     display: block;
     text-align: center;
     width: 120px;
+}
+
+.title {
+  position: absolute;
+  top: 1vh;
+  left: 1vw;
+}
+
+.retailer {
+  position: absolute;
+  top: 10vh;
+  left: 13vw;
+}
+
+.price {
+  position: absolute;
+  top: 20vh;
+  left: 13vw;
+}
+
+.link {
+  position: absolute;
+  top: 30vh;
+  left: 13vw;
 }
 
 .btn.btn-primary {
