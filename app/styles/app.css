@@ -21,6 +21,7 @@
   padding-left: 1vw;
   padding-top: 8vh;
   padding-bottom: 2vh;
+  position: relative;
 }
 
 .hide {
@@ -70,6 +71,9 @@
     background-color: #090a0a;
     background-image: linear-gradient(to bottom, #383d38, #5e615e);
     border-color: #2B669A #2B669A #2B669A;
+    position: absolute;
+    bottom: 1vh;
+    left: 1vw;
 }
 .btn.btn-primary:hover {
     color: #ffffff;
