@@ -11,6 +11,7 @@
 .search-box h4 {
   display: inline-block;
   padding: 5px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 .product {
@@ -22,6 +23,7 @@
   padding-top: 8vh;
   padding-bottom: 2vh;
   position: relative;
+  margin-bottom: 4vh;
 }
 
 .hide {
@@ -70,24 +72,31 @@
   position: absolute;
   top: 1vh;
   left: 1vw;
+  font-family: Impact, Charcoal, sans-serif
 }
 
 .retailer {
   position: absolute;
   top: 10vh;
   left: 13vw;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 .price {
   position: absolute;
   top: 20vh;
   left: 13vw;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 .link {
   position: absolute;
   top: 30vh;
   left: 13vw;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+  font-size: 1.5em;
 }
 
 .btn.btn-primary {
