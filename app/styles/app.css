@@ -23,26 +23,6 @@
   padding-bottom: 2vh;
 }
 
-.product-name {
-  display: block;
-  clear: both;
-}
-
-.product-retailer {
-  /*display: block;*/
-  /*position: absolute;*/
-}
-
-.product-price {
-  float: inherit;
-  display:inline-block;
-}
-
-.product-link {
-  display: block;
-  clear: both;
-}
-
 .hide {
   display: none;
 }
@@ -85,11 +65,17 @@
     width: 120px;
 }
 
-.product-info {
-  background-color: black;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-
+.btn.btn-primary {
+    color: #ffffff;
+    background-color: #090a0a;
+    background-image: linear-gradient(to bottom, #383d38, #5e615e);
+    border-color: #2B669A #2B669A #2B669A;
+}
+.btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #5e615e;
+    background-image: linear-gradient(to bottom, #5e615e, #5e615e);
+    border-color: #2B669A #2B669A #2B669A;
 }
 
 footer {

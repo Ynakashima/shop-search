@@ -4,20 +4,10 @@
     <img src="{{product.image}}" alt="product-image">
     <small>View Larger</small>
   </a>
-  <section class="product-info">
-    <div class="product-name">
-      <h4>{{product.name}}</h4>
-    </div>
-    <div class="product-retailer">
-      <p>Buy it from: {{product.retailer}}</p>
-    </div>
-    <div class="product-price">
-      <p>Price: {{product.price}}</p>
-    </div>
-    <div class="product-link">
-      <a href="{{product.url}}" target="_blank">Buy it</a>
-    </div>
-    <br>
-    <button{{action 'toggleHidden' product}}>Hide Product</button>
-  </section>
+  <h4>{{product.name}}</h4>
+  <p>Buy it from: {{product.retailer}}</p>
+  <p>Price: {{product.price}}</p>
+  <a href="{{product.url}}" target="_blank">Buy it</a>
+  <br>
+  <button type="button" class="btn btn-primary"{{action 'toggleHidden' product}}><span class="glyphicon glyphicon-thumbs-down"></span>Hide Product</button>
 </div>
