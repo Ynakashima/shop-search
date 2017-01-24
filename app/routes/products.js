@@ -7,9 +7,6 @@ export default Ember.Route.extend({
       replace: true
     }
   },
-  // model: function(param) {
-  //   return this.get('store').query('product', {name: param });
-  // }
 
   model(params) {
     return this.store.query('product', params);

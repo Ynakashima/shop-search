@@ -32,16 +32,12 @@
 }
 
 .product img {
-    height: 100px;
-    float: left;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    margin-right: 45px;
-    border-radius: 5px;
-}
-
-.product a {
-  position: relative;
+  height: 100px;
+  float: left;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-right: 45px;
+  border-radius: 5px;
 }
 
 .product a.image.wide {
@@ -73,10 +69,10 @@
 }*/
 
 .product small {
-    float: left;
-    display: block;
-    text-align: left;
-    width: 120px;
+  float: left;
+  display: block;
+  text-align: left;
+  width: 120px;
 }
 
 .title {
