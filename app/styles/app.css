@@ -1,6 +1,25 @@
 .main-heading {
   /*border: 1px solid;*/
-  margin-left: 3vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 3vh;
+}
+
+.logo {
+  /*margin-left: 3vw;*/
+  padding-top: 0vh;
+}
+
+.logo img {
+  height: 25vh;
+}
+
+.hound img {
+  height: 75vh;
+  width: 30vw;
+  position: absolute;
+  bottom: 120px;
+  left: 820px;
 }
 .main-products {
   /*background-color: black;*/
