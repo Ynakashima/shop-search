@@ -1,0 +1,11 @@
+<div class="product col-md-6">
+  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+    <img src="{{favorite.image}}" alt="product-image">
+    <small>View Larger</small>
+  </a>
+  <h4 class="title">{{favorite.name}}</h4>
+  <p class="retailer">Buy it from: {{favorite.retailer}}</p>
+  <p class="price">Price: {{favorite.price}}</p>
+  <a href="{{favorite.url}}" class="link" target="_blank"><strong>Buy it</strong></a>
+</div>
+{{yield}}
