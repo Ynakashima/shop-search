@@ -1,6 +1,5 @@
 # shop-search
-
-Lets see how this goes.
+This is the frontend for Shop Search app.
 
 ## Prerequisites
 
